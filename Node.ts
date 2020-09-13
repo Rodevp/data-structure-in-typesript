@@ -8,7 +8,6 @@ class Nodo {
     }
 
     public add_item(value_item: any): void {
-        console.log('agregando value: ', value_item);
         this.next = value_item;
     }
 
